@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enersinc OS</title>
+    <meta name="description" content="Mockups navegables del producto definitivo de Enersinc: espacio de trabajo en tres paneles con agentes, procesos y artefactos para ETRM, M2C, motor de reglas, riesgo y supervisión del mercado eléctrico colombiano." />
+    <meta property="og:title" content="Enersinc OS" />
+    <meta property="og:description" content="Mockups navegables del producto definitivo de Enersinc: espacio de trabajo en tres paneles con agentes, procesos y artefactos para ETRM, M2C, motor de reglas, riesgo y supervisión del mercado eléctrico colombiano." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ['var(--font-family, "IBM Plex Sans")', 'system-ui', 'sans-serif'] },
+            colors: {
+              ink: 'var(--color-ink, #0F1E33)',
+              ink2: '#17294A',
+              paper: '#EEF1F4',
+              line: '#D9DEE5',
+              txt: '#142235',
+              mut: '#5E6B7C',
+              brand: 'var(--color-brand, #2459D6)',
+              brandsoft: 'var(--color-brandsoft, #E3EAFB)',
+              warn: '#B8690F',
+              warnsoft: '#FBEFDD',
+              ok: '#0F7A62',
+              oksoft: '#DDF1EA',
+              bad: '#B8372B',
+              badsoft: '#F8E1DE'
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      body { font-feature-settings: "tnum" 1; }
+      .num { font-variant-numeric: tabular-nums; }
+      ::-webkit-scrollbar { width: 10px; height: 10px; }
+      ::-webkit-scrollbar-thumb { background: #C7CED8; border-radius: 8px; border: 2px solid transparent; background-clip: content-box; }
+      :focus-visible { outline: 2px solid #2459D6; outline-offset: 2px; }
+      @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+    </style>
+  </head>
+  <body class="bg-paper text-txt font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

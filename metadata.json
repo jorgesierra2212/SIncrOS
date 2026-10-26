@@ -1,0 +1,8 @@
+{
+  "name": "Enersinc OS",
+  "description": "Mockups navegables del producto definitivo de Enersinc: espacio de trabajo en tres paneles con agentes, procesos y artefactos para ETRM, M2C, motor de reglas, riesgo y supervisión del mercado eléctrico colombiano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
